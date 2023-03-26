@@ -1,20 +1,22 @@
-const buttonCC = document.querySelector(".change-color");
-const spanCC = document.querySelector(".color");
-console.log(buttonCC);
-console.log(spanCC);
+const buttonChangeColor = document.querySelector(".change-color");
+const spanGetColor = document.querySelector(".color");
 
-buttonCC.addEventListener("clck", getRandomHexColor);
+console.log(buttonChangeColor);
+console.dir(buttonChangeColor)
+console.log(spanGetColor);
+console.dir(spanGetColor)
+
+buttonChangeColor.addEventListener("clck", onButtonChangeColor);
 
   function getRandomHexColor() {
     return `#${Math.floor(Math.random() * 16777215)
       .toString(16)
       .padStart(6, 0)}`;
   }
-
-function backgrColor() {
   
-  console.log(getRandomHexColor.value)
+function onButtonChangeColor() {
   
+  getRandomHexColor();  
+  spanGetColor.textContent = "getRandomHexColor";
 } 
 
-backgrColor()
