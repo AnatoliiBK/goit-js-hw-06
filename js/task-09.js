@@ -2,13 +2,13 @@ const buttonChangeColor = document.querySelector(".change-color");
 const spanGetColor = document.querySelector(".color");
 const bodyRef = document.querySelector("body")
 
-console.log(buttonChangeColor);
-console.dir(buttonChangeColor)
-console.log(spanGetColor);
-console.dir(spanGetColor)
+// console.log(buttonChangeColor);
+// console.dir(buttonChangeColor);
+// console.log(spanGetColor);
+// console.dir(spanGetColor);
 
-console.log(bodyRef);
-console.dir(bodyRef)
+// console.log(bodyRef);
+// console.dir(bodyRef)
 
 buttonChangeColor.addEventListener("click", onButtonChangeColor);
 
@@ -20,6 +20,6 @@ buttonChangeColor.addEventListener("click", onButtonChangeColor);
   
 function onButtonChangeColor() {  
   spanGetColor.textContent = getRandomHexColor();
-  bodyRef.style.backgroundColor = getRandomHexColor()
+  bodyRef.style.backgroundColor = getRandomHexColor();
 } 
 

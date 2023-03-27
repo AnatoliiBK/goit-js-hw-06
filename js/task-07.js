@@ -12,7 +12,6 @@ fontRef.addEventListener("input", textSize);
 
 function textSize(event) {
     // textRef.textContent = event.currentTarget.value;
-    textRef.style.fontSize = event.currentTarget.valuue;
-    console.dir(event.currentTarget.valuue);
-    
+    textRef.style.fontSize = `${event.currentTarget.value}px`;
+    // console.log(event.currentTarget.valuue);    
 }
