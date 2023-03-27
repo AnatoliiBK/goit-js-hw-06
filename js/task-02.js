@@ -18,12 +18,4 @@ const elements = ingredients.map( options => {
   
 })
 
-console.log(elements);
 ingredientsContainerEl.append(...elements);
-
-// const option = ingredients[0];
-// const ingredientsEl = document.createElement("li");
-//   ingredientsEl.classList.add("item");
-//   ingredientsEl.textContent = option;
-
-//   console.log(ingredientsEl)

@@ -1,12 +1,6 @@
 const inputValid = document.querySelector("#validation-input");
 const styleRef = document.querySelector("style");
 
-console.log(inputValid);
-console.log(styleRef);
-
-
-// console.log(inputValid.getAttribute("id"))
-
 function blurFunc (event) {
     
 

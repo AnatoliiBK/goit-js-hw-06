@@ -15,4 +15,3 @@ function onInputChange (event) {
     
 }
 
-// console.log(outputRef);

@@ -4,10 +4,8 @@ formLog.addEventListener("submit", onSubmit);
 
 function onSubmit(event) {
     event.preventDefault();
-    console.dir(event.currentTarget);
     const {email, password} = event.currentTarget.elements;
-    console.log(email.value);
-    console.log(password.value);
+    
     let formOK = {
     
     }

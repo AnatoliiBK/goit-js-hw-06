@@ -26,7 +26,5 @@ galleryRef.style.columnGap = "20px";
 galleryRef.style.listStyle = "none";
 galleryRef.style.alignItems = "center"
 const imgRef = document.querySelector(".img");
-console.log(galleryRef)
-console.log(elements);
-console.log(imgRef);
+
 galleryRef.insertAdjacentHTML("beforeend", elements);
