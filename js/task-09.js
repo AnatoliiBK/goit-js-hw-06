@@ -10,8 +10,9 @@ buttonChangeColor.addEventListener("click", onButtonChangeColor);
       .padStart(6, 0)}`;
   }
   
-function onButtonChangeColor() {  
-  spanGetColor.textContent = getRandomHexColor();
-  bodyRef.style.backgroundColor = getRandomHexColor();
+function onButtonChangeColor() {
+  const funcColor = getRandomHexColor(); 
+  spanGetColor.textContent = funcColor;
+  bodyRef.style.backgroundColor = funcColor;
 } 
 
